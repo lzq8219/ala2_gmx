@@ -1,6 +1,6 @@
 # PLUMED Installation Guide
 
-PLUMED is a powerful open-source library for free energy calculations and enhanced sampling in molecular dynamics simulations. This guide will walk you through the steps to install PLUMED 2.9.2 on your system.
+PLUMED is a powerful open-source library for free energy calculations and enhanced sampling in molecular dynamics simulations. This guide will walk you through the steps to install PLUMED 2.9.2 on your system. See also https://www.plumed.org/doc-v2.9/user-doc/html/index.html 
 
 ## Prerequisites
 
