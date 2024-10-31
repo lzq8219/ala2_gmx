@@ -9,7 +9,10 @@
 ## Installation
 To install this project, clone the repository using the following command:  
 
-```bash git clone https://github.com/username/repository.git```  
+```bash 
+
+git clone https://github.com/username/repository.git
+```  
 
 Navigate into the project directory:  
 
