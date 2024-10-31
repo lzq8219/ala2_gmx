@@ -1,0 +1,35 @@
+# Compiled source files  
+*.com  
+*.class  
+*.dll  
+*.exe  
+*.o  
+*.so  
+
+
+# Mac OS  
+.DS_Store  
+
+# Editor files  
+*.sublime-project  
+*.sublime-workspace  
+*.vscode  
+
+
+# Environment  
+.env  
+.env.*  
+
+\#*\#
+*.gro
+*.tpr
+*.log
+*.trr
+*.xtc
+mdout.mdp
+temp.*
+*.top
+*.edr
+*.ipr
+*.cpt
+*.itp
