@@ -1,10 +1,19 @@
-## Features- Feature1: Description of feature1- Feature2: Description of feature2- Feature3: Description of feature3## InstallationTo install this project, clone the repository using the following command:  
+# Features- Feature1: Description of feature1- 
+1. Fork the repository.  
+2. Create a new branch (`git checkout -b feature-branch`).  
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).  
+4. Push to the branch (`git push origin feature-branch`).  
+5. Open a pull request.  
+## Feature2: Description of feature2- 
+### Feature3: Description of feature3
+## Installation
+To install this project, clone the repository using the following command:  
 
-```bashgit clone https://github.com/username/repository.git```  
+```bash git clone https://github.com/username/repository.git```  
 
 Navigate into the project directory:  
 
-```bashcd repository```  
+```bash cd repository```  
 
 Install the required dependencies:  
 
@@ -14,7 +23,8 @@ Install the required dependencies:
 
 ```bash# For Python projectspython main.py# For Node.js projectsnode index.js```  
 
-## Contributing1. Fork the repository.  
+## Contributing
+1. Fork the repository.  
 2. Create a new branch (`git checkout -b feature-branch`).  
 3. Make your changes and commit them (`git commit -m 'Add new feature'`).  
 4. Push to the branch (`git push origin feature-branch`).  
