@@ -99,14 +99,14 @@ if __name__ == '__main__':
     y = y.flatten()
     x = x.flatten()
     g = np.array([x, y]).T
-    filename = 'ala2/simulation/COLVAR_test'
+    filename = 'ala2/simulation/COLVAR_metad'
     # filename='simulation/long/COLVAR'
     data = np.loadtxt(filename)
-    print(data[:, 1:3])
 
     # fes=calculateFES_multi(df,grid,16)
-    h = hist_reweight(data[:, 1:3], np.ones_like(
-        data[:, 0]), -np.pi, np.pi, -np.pi, np.pi, ngrid)
+    nstart = 40000
+    h = hist_reweight(data[nstart:, 1:3], np.exp(
+        data[nstart:, 3]), -np.pi, np.pi, -np.pi, np.pi, ngrid)
 
     h = h.flatten()
     plt.clf()
@@ -115,7 +115,7 @@ if __name__ == '__main__':
     plt.xlabel('$\\phi$')
     plt.ylabel('$\\psi$')
     plt.colorbar(label='FES')
-    plt.savefig('fes_2.png', dpi=300)
+    plt.savefig('ala2/fes_metad_1.png', dpi=300)
     plt.clf()
 
     # draw point density
