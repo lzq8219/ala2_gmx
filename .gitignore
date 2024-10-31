@@ -33,3 +33,5 @@ temp.*
 *.ipr
 *.cpt
 *.itp
+bck.*
+COLVAR*
