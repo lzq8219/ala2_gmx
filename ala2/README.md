@@ -49,6 +49,18 @@ This guide will walk you through the steps to simulate the Ala2 (alanine dipepti
    ```
    These commands run the production molecular dynamics simulation using the parameters defined in the `md.mdp` file. The simulation trajectory is saved in the `md.trr` and `md.xtc` files, and the final coordinates are written to `md.gro`.
 
+7. **Analysis trajectory with plumed**:
+   ```bash
+   plumed driver --mf_trr md.trr --plumed plumed.dat
+   ```
+   This command calculates describtors of points in trajectory `md.trr`.
+
+7. **Production MD simulation with Metadynamics**:
+   ```bash
+   gmx_mpi mdrun -s md.tpr -c md.gro -o md.trr -x md.xtc -plumed_metad.dat -v
+   ```
+   This command runs the production molecular dynamics simulation with metadynamics.
+
 
 
 ## Troubleshooting
