@@ -57,7 +57,7 @@ This guide will walk you through the steps to simulate the Ala2 (alanine dipepti
 
 7. **Production MD simulation with Metadynamics**:
    ```bash
-   gmx_mpi mdrun -s md.tpr -c md.gro -o md.trr -x md.xtc -plumed_metad.dat -v
+   gmx_mpi mdrun -s md.tpr -c md.gro -o md.trr -x md.xtc -plumed plumed_metad.dat -v
    ```
    This command runs the production molecular dynamics simulation with metadynamics.
 
